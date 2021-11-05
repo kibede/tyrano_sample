@@ -1,46 +1,46 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="危機回避"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「危機回避」[l][r]
 
-メロスは激怒した。[l][r]
+いつものように友達と下校していた。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+信号を待っていると、赤信号にもかかわらず、友達は急に道路に飛び出した。[l][r]
+私は...[l][r]
 
-(中略)[l][r]
+[link target=*tag_sleep] →すぐに友達を引っ張った [endlink][r]
+[link target=*tag_run] →あまりに突然の出来事に体が動かなかった [endlink][r]
 
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
 
-【 BAD END 】[l][cm]
+友達を道路に戻せた。[l][r]
+しかし、慌ててハンドルを切った走行中の車が歩道に突っ込んできて、私は致命傷を負い、友達は亡くなった。[r]
+どうしてこんな事になってしまったのだろう…[r]
+
+【 BAD END1】[l][cm]
 
 [jump target=*start]
 
 *tag_run
 
-[bg storage=run.jpg time=500]
+
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+走行中の車が友達に気付いて慌ててハンドルを切り、私のいる歩道に突っ込んだ。[l][r]
+病院に運ばれたようで、意識朦朧としている中、友達が何か言っているようだったが、上手く聞き取れなかった。[r]
 
-【 GOOD END 】[l][cm]
+後日、葬式が行われた。
+
+【 BAD END2 】[l][cm]
 
 [jump target=*start]
